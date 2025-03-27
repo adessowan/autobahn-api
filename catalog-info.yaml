@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: autobahn-api
+  title: Autobahn API
+  description: "Diese API stellt Informationen zur BUND Autobahn API bereit."
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs
+    # Weitere optionale Annotationen, z. B. für GitHub-Repository, Version, etc.
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-awesome
+  definition:
+    type: openapi
+    $text: https://raw.githubusercontent.com/adessowan/autobahn-api/refs/heads/main/autobahn.yaml
