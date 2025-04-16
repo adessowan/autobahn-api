@@ -12,5 +12,4 @@ spec:
   lifecycle: production
   owner: team-awesome
   definition:
-    type: openapi
     $text: https://raw.githubusercontent.com/adessowan/autobahn-api/refs/heads/main/autobahn.yaml
